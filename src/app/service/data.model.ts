@@ -24,20 +24,4 @@ export interface Limits {
   amount: number;
 }
 
-export interface CategoryList {
-  groceries: string;
-  utilities: string;
-  entertainment: string;
-  myBills: string;
-  transportation: string;
-  shopping: string;
-}
 
-export interface CardDetails {
-  cardNumber1: number;
-  cardNumber2: number;
-  cardNumber3: number;
-  cardExpiry: string;
-  cardHolder: string;
-  cardNumberId: string;
-}

@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { DatabaseService } from '../../service/database.service';
-import { CardDetails } from '../../service/data.module';
+
 import { LimitsService } from '../../service/limits.service';
 import { CarddetailsService } from '../../service/carddetails.service';
+import { CardDetails } from '../cards.model';
 
 @Component({
   selector: 'app-cardlist',

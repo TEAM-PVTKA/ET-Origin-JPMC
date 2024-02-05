@@ -1,14 +1,12 @@
 import { Injectable } from '@angular/core';
-import { CardDetails } from './data.module';
 import { Subject } from 'rxjs';
+import { CardDetails } from '../cards/cards.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CarddetailsService {
-
   cardList: CardDetails[] = [];
-  cardList$ = new Subject<CardDetails[]>()
+  cardList$ = new Subject<CardDetails[]>();
   constructor() {}
-
 }

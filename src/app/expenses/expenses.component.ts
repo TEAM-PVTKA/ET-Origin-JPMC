@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Expenses, MonthlyData } from '../service/data.module';
+import { Expenses, MonthlyData } from '../service/data.model';
 import { LimitsService } from '../service/limits.service';
 import { Router } from '@angular/router';
 import * as Highcharts from 'highcharts';

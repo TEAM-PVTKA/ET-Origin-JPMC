@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
-import { Expenses, MonthlyData } from '../service/data.module';
+import { Expenses, MonthlyData } from '../service/data.model';
 import { LimitsService } from '../service/limits.service';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-offers',
   templateUrl: './offers.component.html',
-  styleUrl: './offers.component.css'
+  styleUrl: './offers.component.css',
 })
 export class OffersComponent {
-
   currentAmount: number = 0;
   targetAmount: number = 1000;
   isEligibleForReward: boolean = false;
@@ -63,5 +62,4 @@ export class OffersComponent {
   enableReward() {
     // this.isEligibleForReward = !this.isEligibleForReward;
   }
-
 }

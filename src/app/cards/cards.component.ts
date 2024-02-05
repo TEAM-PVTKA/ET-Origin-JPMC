@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { CardDetails } from '../service/data.module';
 import { DatabaseService } from '../service/database.service';
 import { Router } from '@angular/router';
 import { CarddetailsService } from '../service/carddetails.service';
+import { CardDetails } from './cards.model';
 
 @Component({
   selector: 'app-cards',

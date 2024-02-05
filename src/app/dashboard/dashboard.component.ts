@@ -1,9 +1,13 @@
+import accessibilityModule from 'highcharts/modules/accessibility';
+
+accessibilityModule(Highcharts);
+
 import { Component } from '@angular/core';
 import { LimitsService } from '../service/limits.service';
 import { Router } from '@angular/router';
 import * as Highcharts from 'highcharts';
-import { Expenses, Limits, MonthlyData } from '../service/data.module';
 import { homePieChart, barCharts } from '../charts';
+import { Expenses, Limits, MonthlyData } from '../service/data.model';
 
 @Component({
   selector: 'app-dashboard',
@@ -18,6 +22,12 @@ export class DashboardComponent {
   barCharts = null;
 
   ngOnInit(): void {
+    Highcharts.setOptions({
+      accessibility: {
+        enabled: true, // Set to true to enable accessibility features
+      },
+    });
+
     this.getMonthlySummary();
     this.getMonthlyLimitstsVsExp();
     this.getHalfYearlySummary();
@@ -45,8 +55,8 @@ export class DashboardComponent {
       date.getMonth() + 1,
       date.getFullYear()
     );
-    let monthlyInc = monthNumber.income;
-    return monthlyInc;
+
+    return monthNumber?.income ?? 0;
   }
 
   getMonthlyExpenditure() {
@@ -57,9 +67,12 @@ export class DashboardComponent {
       date.getFullYear()
     );
 
-    monthNumber.expenses.forEach((f: Expenses) => {
-      expensesPerMonth = expensesPerMonth + f.amount;
-    });
+    // Check if monthNumber or monthNumber.expenses is undefined
+    if (monthNumber?.expenses) {
+      monthNumber.expenses.forEach((f: Expenses) => {
+        expensesPerMonth = expensesPerMonth + f.amount;
+      });
+    }
 
     return expensesPerMonth;
   }
@@ -72,14 +85,19 @@ export class DashboardComponent {
       date.getFullYear()
     );
 
-    const monthlyInc = monthNumber.income;
+    // Check if monthNumber or monthNumber.income or monthNumber.expenses is undefined
+    if (monthNumber?.income && monthNumber?.expenses) {
+      const monthlyInc = monthNumber.income;
 
-    monthNumber.expenses.forEach((f: Expenses) => {
-      expensesPerMonth = expensesPerMonth + f.amount;
-    });
+      monthNumber.expenses.forEach((f: Expenses) => {
+        expensesPerMonth = expensesPerMonth + f.amount;
+      });
 
-    const savingsPerMonth = monthlyInc - expensesPerMonth;
-    return savingsPerMonth;
+      const savingsPerMonth = monthlyInc - expensesPerMonth;
+      return savingsPerMonth;
+    }
+
+    return 0; // Return a default value when unable to calculate savings
   }
 
   getHalfYearlySummary() {
@@ -106,7 +124,7 @@ export class DashboardComponent {
       date.getFullYear()
     );
 
-    const data = monthyData.expenses?.map((e: Expenses) => {
+    const data = monthyData?.expenses?.map((e: Expenses) => {
       return { name: e.category, y: +e.amount };
     });
 
