@@ -1,0 +1,66 @@
+.container {
+    height: 260px;
+    width: 530px;
+    background: linear-gradient(to bottom, black, #910A67);
+    border-radius: 10px;
+    box-shadow: 2px 6px 29px white;
+}
+
+.visa {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.col-8 {
+    color: white;
+    font-size: 12px;
+}
+
+#num {
+    color: white;
+    font-size: 12px;
+}
+
+.incard {
+    width: 20px;
+}
+
+#name {
+    color: white;
+    font-size: 12px;
+}
+
+#card {
+    color: white;
+    font-size: 12px;
+}
+
+.body {
+    background-color: #785BF8;
+}
+
+
+.name{
+    color: white;
+    font-size: 19px;
+}
+
+p {
+    color: white;
+
+}
+
+label {
+    color: white
+}
+
+.date{
+    color: white 
+}
+.col-md-3{
+    color: white 
+}
+.cholder{
+    color: white 
+}

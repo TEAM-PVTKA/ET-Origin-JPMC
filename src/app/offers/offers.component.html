@@ -1,0 +1,177 @@
+<div class="container mt-5">
+    <div class="row mt-5">
+        <div class="col-md-3">
+            <div *ngIf="isEligibleForReward">
+                <div class="reward-card">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="data:image/png;base64,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"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Congratulations!!</h5>
+                                <p class="card-text">
+                                    You have acheived this as your limits have not crossed the expenses
+                                </p>
+                                <button class="btn btn-danger btn-outline-danger text-white">Redeem Now</button>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div *ngIf="!isEligibleForReward">
+                <p>You are not eligible for this reward yet. Keep saving more!!</p>
+                <div class="reward-card blur">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div *ngIf="isEligibleForReward2">
+                <div class="reward-card">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4Zals818kIE8gVWdPXH0KBk8jpTwsmkBqA&usqp=CAU"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div *ngIf="!isEligibleForReward2">
+                <p>You are not eligible for this reward yet. Keep saving more!!</p>
+                <div class="reward-card blur">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div *ngIf="isEligibleForReward3">
+                <div class="reward-card">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT95EnM6A7RdhOhksTEuXtJGjlZsJ8eUu8GLQ&usqp=CAU"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="!isEligibleForReward3">
+                <p>You are not eligible for this reward yet. Keep saving more!!</p>
+                <div class="reward-card blur">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div *ngIf="isEligibleForReward3">
+                <div class="reward-card">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT95EnM6A7RdhOhksTEuXtJGjlZsJ8eUu8GLQ&usqp=CAU"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="!isEligibleForReward3">
+                <p>You are not eligible for this reward yet. Keep saving more!!</p>
+                <div class="reward-card blur">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

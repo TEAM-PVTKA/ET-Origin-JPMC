@@ -1,0 +1,118 @@
+<nav class="navbar mynav fixed-top" data-bs-dismiss="offcanvas">
+    <div class="container-fluid">
+        <div class="icon">
+            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions" class="navbar-toggler btn" id="toggle" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <nav class="navbar navbar-expand-md">
+            <ul class="navbar-nav">
+                <li class="nav-item" title="Alerts">
+                    <a class="nav-link" routerLink="/nav/alerts">
+                        <span class="text-white"> Alerts <i class="fa-regular fa-bell"></i><span
+                                class="badge badge-dark"></span></span>
+                    </a>
+
+                </li>
+
+                <li class="nav-item" title="Customer Support">
+                    <a class="nav-link" routerLink="/nav/contact">
+                        <span class="text-white">Support <i class="fa-solid fa-headset"></i></span>
+                    </a>
+                </li>
+
+                <li class="nav-item" title="Logout">
+                    <a class="nav-link" routerLink="/" (click)="logout()">
+                        <span class="text-white">Logout <i class="fa-solid fa-arrow-right-from-bracket"></i></span>
+
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" style="background-color: #785bf8" data-bs-scroll="true" tabindex="-1"
+            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <a class="nav-link offcanvas-title text-white" id="offcanvasNavbarLabel">
+                    <h3>Expense Tracker</h3>
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" data-bs-dismiss="offcanvas"
+                            routerLink="/nav/home">
+                            <i class="fa-solid fa-gauge"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/recommendations" data-bs-dismiss="offcanvas"
+                            routerLink="/nav/expenses">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            Expenses
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" routerLink="/nav/offers" data-bs-dismiss="offcanvas">
+                            <i class="fa-solid fa-ticket"></i>
+                            Offers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" data-bs-dismiss="offcanvas" routerLink="/nav/cards">
+                            <i class="fa-regular fa-credit-card"></i>
+                            Cards
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" data-bs-dismiss="offcanvas" routerLink="/nav/data">
+                            <i class="fa-solid fa-upload"></i>
+                            Upload
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" data-bs-dismiss="offcanvas" routerLink="/nav/limits">
+                            <i class="fa-solid fa-stopwatch"></i>
+                            Limits
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" data-bs-dismiss="offcanvas" routerLink="/" (click)="logout()">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            Signout
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- footer -->
+
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Expense Tracker 2024</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+</nav>
+
+
+
+
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="row mt-5">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

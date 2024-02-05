@@ -1,0 +1,2154 @@
+{
+    "years": [
+        {
+            "year": 2022,
+            "months": [
+                {
+                    "month": "January",
+                    "expenses": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 8000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 6000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 7000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 14000
+                      }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 8000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 15000
+                      }
+                  ],
+                     "income": 80000
+                },
+                {
+                    "month": "February",
+                    "expenses": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 9000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 7000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 8000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 16000
+                      }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 8000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 17000
+                      }
+                  ],
+                    "income":85000
+                },
+                {
+                    "month": "March",
+                    "expenses": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 9000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 9000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 8000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 16000
+                      }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 18000
+                      }
+                  ],
+                    
+                    "income":90000
+                },
+                {
+                    "month": "April",
+                    "expenses": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 9000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 9000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 8000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 18000
+                      }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 20000
+                      }
+                  ],
+                    "income":95000
+                },
+                {
+                    "month": "May",
+                    "expenses": [
+                       
+                        {
+                            "category": "Groceries",
+                            "amount": 8000
+                        },
+                        {
+                            "category": "Utilities",
+                            "amount": 18000
+                        },
+                        {
+                            "category": "Entertainment",
+                            "amount": 12000
+                        },
+                        {
+                            "category": "My Bills",
+                            "amount": 18000
+                        },
+                        {
+                            "category": "Transportation",
+                            "amount": 8000
+                        },
+                        {
+                            "category": "Shopping",
+                            "amount": 18000
+                        }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 20000
+                      }
+                  ],
+                    "income": 100000
+                },
+                {
+                    "month": "June",
+                    "expenses": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 22000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 15000
+                      }
+                  ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 19000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 17000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 24000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 17000
+                      }
+                  ],
+                    "income":105000
+                },
+                {
+                    "month": "July",
+                    "expenses": [
+                       
+                        {
+                            "category": "Groceries",
+                            "amount": 20000
+                        },
+                        {
+                            "category": "Utilities",
+                            "amount": 16000
+                        },
+                        {
+                            "category": "Entertainment",
+                            "amount": 10000
+                        },
+                        {
+                            "category": "My Bills",
+                            "amount": 23000
+                        },
+                        {
+                            "category": "Transportation",
+                            "amount": 12000
+                        },
+                        {
+                            "category": "Shopping",
+                            "amount": 15000
+                        }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 22000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 24000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 13000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 20000
+                      }
+                  ],
+                    "income":110000
+                },
+                {
+                    "month": "August",
+                    "expenses": [
+                       
+                        {
+                            "category": "Groceries",
+                            "amount": 20000
+                        },
+                        {
+                            "category": "Utilities",
+                            "amount": 15000
+                        },
+                        {
+                            "category": "Entertainment",
+                            "amount": 12000
+                        },
+                        {
+                            "category": "My Bills",
+                            "amount": 22000
+                        },
+                        {
+                            "category": "Transportation",
+                            "amount": 18000
+                        },
+                        {
+                            "category": "Shopping",
+                            "amount": 7000
+                        }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 23000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 24000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 19000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 8000
+                      }
+                  ],
+                    "income":115000
+                },
+                {
+                    "month": "September",
+                    "expenses": [
+                       
+                        {
+                            "category": "Groceries",
+                            "amount": 10000
+                        },
+                        {
+                            "category": "Utilities",
+                            "amount": 15000
+                        },
+                        {
+                            "category": "Entertainment",
+                            "amount": 15000
+                        },
+                        {
+                            "category": "My Bills",
+                            "amount": 15000
+                        },
+                        {
+                            "category": "Transportation",
+                            "amount": 10000
+                        },
+                        {
+                            "category": "Shopping",
+                            "amount": 20000
+                        }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 17000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 11000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 21000
+                      }
+                  ],
+                    "income": 120000
+                },
+                {
+                    "month": "October",
+                    "expenses": [
+                       
+                        {
+                            "category": "Groceries",
+                            "amount": 20000
+                        },
+                        {
+                            "category": "Utilities",
+                            "amount": 10000
+                        },
+                        {
+                            "category": "Entertainment",
+                            "amount": 10000
+                        },
+                        {
+                            "category": "My Bills",
+                            "amount": 25000
+                        },
+                        {
+                            "category": "Transportation",
+                            "amount": 8000
+                        },
+                        {
+                            "category": "Shopping",
+                            "amount": 20000
+                        }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 21000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 28000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 22000
+                      }
+                  ],
+                    "income": 125000
+                },
+                {
+                    "month": "November",
+                    "expenses": [
+                       
+                        {
+                            "category": "Groceries",
+                            "amount": 12000
+                        },
+                        {
+                            "category": "Utilities",
+                            "amount": 16000
+                        },
+                        {
+                            "category": "Entertainment",
+                            "amount": 10000
+                        },
+                        {
+                            "category": "My Bills",
+                            "amount": 23000
+                        },
+                        {
+                            "category": "Transportation",
+                            "amount": 12000
+                        },
+                        {
+                            "category": "Shopping",
+                            "amount": 15000
+                        }
+                    ],
+                    "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 18000
+                      }
+                  ],
+                    "income":130000
+                },
+                {
+                    "month": "December",
+                    "expenses": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 23000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 15000
+                      }
+                  ],
+                  "limits": [
+                       
+                      {
+                          "category": "Groceries",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 18000
+                      }
+                  ],
+                    "income":135000
+                }
+            ]
+        },
+        {
+          "year": 2023,
+          "months": [
+              {
+                  "month": "January",
+                  "expenses": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 18000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 12000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 22000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 8000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 22000
+                    }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 38000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 18000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 10000
+                    }
+                  ],
+                  "income": 140000
+              },
+              {
+                  "month": "February",
+                  "expenses": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 10000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 10000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 8000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 20000
+                    }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 27000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 28000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 12000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 23000
+                    }
+                  ],
+                  "income":145000
+              },
+              {
+                  "month": "March",
+                  "expenses": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 32000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 16000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 10000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 23000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 12000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 22000
+                    }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 35000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 26000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 18000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 22000
+                    }
+                  ],
+                  "income":150000
+              },
+              {
+                  "month": "April",
+                  "expenses": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 12000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 16000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 10000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 23000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 12000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 15000
+                    }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 22000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 18500
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 18000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 25000
+                    }
+                  ],
+                  "income":155000
+              },
+              {
+                  "month": "May",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 20000
+                      }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 19000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 33000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 35000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 14000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 28000
+                    }
+                ],
+                  "income": 160000
+              },
+              {
+                  "month": "June",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 23000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 22000
+                      }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 23000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 36000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 35000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 21000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 30000
+                    }
+                ],
+                "income": 160000
+            },
+            {
+                "month": "June",
+                "expenses": [
+                   
+                    {
+                        "category": "Groceries",
+                        "amount": 23000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 10000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 12000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 22000
+                    }
+                ],
+                "limits": [
+                   
+                    {
+                        "category": "Groceries",
+                        "amount": 28000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 18000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 36000
+                    }
+                ],
+                  "income":165000
+              },
+              {
+                  "month": "July",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 23000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 22000
+                      }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount":35000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 21000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 32000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 31000
+                    }
+                ],
+                  "income":170000
+              },
+              {
+                  "month": "August",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 8000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 27000
+                      }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 35000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 35000
+                    }
+                ],
+                  "income":175000
+              },
+              {
+                  "month": "September",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 13000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 22000
+                      }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 22000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 36000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 29000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 27000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 39000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 28000
+                    }
+                ],
+                  "income":180000
+              },
+              {
+                  "month": "October",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 13000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 20000
+                      }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 33000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 23000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 35000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 18000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 23000
+                    }
+                ],
+                  "income": 185000
+              },
+              {
+                  "month": "November",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 16000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 12000
+                      }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 36000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 28000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 32000
+                    }
+                ],
+                  "income":190000
+              },
+              {
+                  "month": "December",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 10000
+                      }
+                  ],
+                  "limits": [
+                     
+                    {
+                        "category": "Groceries",
+                        "amount": 45000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 28000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 23000
+                    }
+                ],
+                  "income": 195000
+              }
+          ]
+        },
+        {
+          "year": 2024,
+          "months": [
+              {
+                  "month": "January",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 35000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 35000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 42000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 45000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 40000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 50000
+                    }
+                  ],
+                  "income": 210000
+              },
+              {
+                  "month": "February",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 28000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 29000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 35000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 23000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 35000
+                    }
+                  ],
+                  "income":205000
+              },
+              {
+                  "month": "March",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 40000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount":10000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 22000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 50000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 30000
+                    }
+                  ],
+                  "income":220000
+              },
+              {
+                  "month": "April",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 30000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 20000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 45000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 25000
+                    }
+                  ],
+                  "income":215000
+              },
+              {
+                  "month": "May",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 33000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 25000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 40000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 30000
+                    }
+                  ],
+                  "income": 210000
+              },
+              {
+                  "month": "June",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 12000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 19000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 25000
+                    }
+                  ],
+                  "income":190000
+              },
+              {
+                  "month": "July",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 33000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 10000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 30000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 19000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 45000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 15000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 35000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 30000
+                    }
+                  ],
+                  "income":210000
+              },
+              {
+                  "month": "August",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 28000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 40000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 40000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 55000
+                    }
+                  ],
+                  "income":215000
+              },
+              {
+                  "month": "September",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 32000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 5000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 45000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 5000
+                    }
+                  ],
+                  "income": 200000
+              },
+              {
+                  "month": "October",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 45000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 30000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 19000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 21000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 50000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 25000
+                    }
+                  ],
+                  "income": 205000
+              },
+              {
+                  "month": "November",
+                  "expenses": [
+                     
+                      {
+                          "category": "Groceries",
+                          "amount": 22000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 15000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 18000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 18000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 40000
+                    }
+                  ],
+                  "income":180000
+              },
+              {
+                  "month": "December",
+                  "expenses": [
+                    
+                      {
+                          "category": "Groceries",
+                          "amount": 38000
+                      },
+                      {
+                          "category": "Utilities",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Entertainment",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "My Bills",
+                          "amount": 20000
+                      },
+                      {
+                          "category": "Transportation",
+                          "amount": 25000
+                      },
+                      {
+                          "category": "Shopping",
+                          "amount": 27000
+                      }
+                  ],
+                  "limits":[
+                    {
+                        "category": "Groceries",
+                        "amount": 45000
+                    },
+                    {
+                        "category": "Utilities",
+                        "amount": 35000
+                    },
+                    {
+                        "category": "Entertainment",
+                        "amount": 20000
+                    },
+                    {
+                        "category": "My Bills",
+                        "amount": 25000
+                    },
+                    {
+                        "category": "Transportation",
+                        "amount": 30000
+                    },
+                    {
+                        "category": "Shopping",
+                        "amount": 45000
+                    }
+                  ],
+                  "income":220000
+              }
+          ]
+        }
+    ]
+  }

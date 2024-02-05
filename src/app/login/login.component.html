@@ -1,0 +1,180 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+
+            <div class="my-login-page">
+                <!-- Login-page-starts-here -->
+                <section class="h-100">
+                    <div class="container h-100">
+                        <div class="row justify-content-md-center h-100">
+                            <div class="card-wrapper">
+                                <div class="brand">
+                                    <img class="img-rounded" src="assets/images/logo.png" alt="logo">
+                                </div>
+                                <div class="card fat" id="mylogin">
+                                    <div class="card-body">
+                                        <h4 class="card-title"></h4>
+                                        <form class="my-login-validation" novalidate="">
+                                            <div class="form-group">
+                                                <label for="email">Username</label>
+                                                <input id="email" type="email" class="form-control" name="email"
+                                                    value="" required autofocus [(ngModel)]="uname">
+                                                <div class="invalid-feedback">
+                                                    Username is invalid
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="password">Password
+                                                    <a href="forgot.html" class="float-right">
+                                                        Forgot Password?
+                                                    </a>
+                                                </label>
+                                                <input id="password" type="password" class="form-control"
+                                                    name="password" required data-eye [(ngModel)]="pwd">
+                                                <div class="invalid-feedback">
+                                                    Password is required
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="checkbox" name="remember" id="remember"
+                                                        class="custom-control-input">
+                                                    <label for="remember" class="custom-control-label">Remember
+                                                        Me</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group m-0">
+                                                <button type="submit" class="btn btn-primary btn-block"
+                                                    (click)="loginCheck()">
+                                                    Login
+                                                </button>
+                                                <button type="submit" class="btn btn-danger btn-block">
+                                                    Sign in with google
+                                                </button>
+                                            </div>
+                                            <div class="mt-4 text-center">
+                                                <!-- Button trigger modal -->
+                                                Don't have an account? <a href="register.html" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">Sign Up</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- login-page-ended-here -->
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <!-- Modal-body -->
+                                            <div class="modal-body">
+                                                <section class="h-100">
+                                                    <div class="container h-50">
+                                                        <div class="row justify-content-md-center h-100">
+                                                            <div class="card-wrapper">
+                                                                <div class="card fat">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title"></h4>
+                                                                        <form method="POST" class="my-login-validation"
+                                                                            novalidate="">
+
+                                                                            <div class="form-group">
+                                                                                <label for="name">User Name(Must be
+                                                                                    unique)</label>
+                                                                                <input id="name" type="text"
+                                                                                    class="form-control" name="name"
+                                                                                    required autofocus
+                                                                                    [(ngModel)]="signupUsername">
+                                                                                <div class="invalid-feedback">
+                                                                                    Give an unique name
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="form-group">
+                                                                                <label for="email">E-Mail
+                                                                                    Address</label>
+                                                                                <input id="email" type="email"
+                                                                                    class="form-control" name="email"
+                                                                                    required [(ngModel)]="signupEmail">
+                                                                                <div class="invalid-feedback">
+                                                                                    Your email is invalid
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="form-group">
+                                                                                <label for="password">Password</label>
+                                                                                <input id="password" type="password"
+                                                                                    class="form-control" name="password"
+                                                                                    required data-eye
+                                                                                    [(ngModel)]="signupPassword">
+                                                                                <div class="invalid-feedback">
+                                                                                    Password is required
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="form-group">
+                                                                                <div
+                                                                                    class="custom-checkbox custom-control">
+                                                                                    <input type="checkbox" name="agree"
+                                                                                        id="agree"
+                                                                                        class="custom-control-input"
+                                                                                        required="">
+                                                                                    <label for="agree"
+                                                                                        class="custom-control-label">I
+                                                                                        agree to
+                                                                                        the
+                                                                                        <a href="#">Terms and
+                                                                                            Conditions</a></label>
+                                                                                    <div class="invalid-feedback">
+                                                                                        You must agree with our Terms
+                                                                                        and
+                                                                                        Conditions
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="form-group m-0">
+                                                                                <button type="submit"
+                                                                                    class="btn btn-primary btn-block"
+                                                                                    (click)="registerNow()">
+                                                                                    Register
+                                                                                </button>
+                                                                            </div>
+                                                                            <div class="mt-4 text-center">
+                                                                                Already have an account? <a
+                                                                                    href="/login">Login</a>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    Copyright &copy; 2024 &mdash; DRF
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
