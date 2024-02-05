@@ -3,11 +3,10 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DatabaseService {
-
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   register(user: any): Observable<any> {
     return this.http.post('http://localhost:4300/users/register', user, {
@@ -23,12 +22,13 @@ export class DatabaseService {
     return this.http.post('http://localhost:4300/users/cards', details);
   }
 
-  // getcards(details:any): Observable<any>{
-  //   return this.http.get('http://localhost:4300/users/addcards', details)
-  // }
-
-  getCardsForUser(userName: any): Observable<any> {
-    return this.http.get('http://localhost:4300/users/addcards', userName);
+  getCardsForUser(cardHolder: any): Observable<any> {
+    return this.http.get(
+      `http://localhost:4300/users/addcards?cardHolder=${cardHolder}`
+    );
   }
 
+  // getCardsForUser(details: any): Observable<any> {
+  //   return this.http.get('http://localhost:4300/users/addcards', details);
+  // }
 }

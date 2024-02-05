@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { DatabaseService } from '../../service/database.service';
 import { CardDetails } from '../../service/data.module';
+import { LimitsService } from '../../service/limits.service';
+import { CarddetailsService } from '../../service/carddetails.service';
 
 @Component({
   selector: 'app-cardlist',
@@ -9,7 +11,7 @@ import { CardDetails } from '../../service/data.module';
   styleUrl: './cardlist.component.css',
 })
 export class CardlistComponent {
-  cardsArray!: CardDetails[];
+  cardsArray: CardDetails[] = [];
 
   cardNumber1!: number;
   cardNumber2!: number;
@@ -17,7 +19,10 @@ export class CardlistComponent {
   cardExpiry!: string;
   cardHolder!: string;
   card!: CardDetails;
-  constructor(private path: Router, private dbService: DatabaseService) {}
+  constructor(
+    private service: CarddetailsService,
+    private dbService: DatabaseService
+  ) {}
   ngOnInit() {
     const loggedInUser = localStorage.getItem('loginUser');
     if (loggedInUser) {
@@ -26,11 +31,11 @@ export class CardlistComponent {
         (error) => console.error('Error fetching cards:', error)
       );
     }
-    // this.service.cardList$.subscribe((cards: CardDetails[]) => {
-    //   if (cards.length) {
-    //     this.cardsArray = this.service.cardList;
-    //   }
-    // });
+    this.service.cardList$.subscribe((cards: CardDetails[]) => {
+      if (cards.length) {
+        this.cardsArray = this.service.cardList;
+      }
+    });
   }
 
   onDelete(index: number) {

@@ -71,6 +71,9 @@ export class CardsComponent {
         console.log(result);
 
         // Update the cardsArray with the newly added card
+        this.dbService.getCardsForUser(this.cardHolder).subscribe((res) => {
+          console.log(res);
+        });
         this.service.cardList.push(result);
         this.service.cardList$.next(this.service.cardList);
       });
@@ -89,19 +92,6 @@ export class CardsComponent {
     this.dbService.getCardsForUser(cardNumberId).subscribe((res) => {
       console.log(res);
     });
-
-    // this.dbService
-    //   .cards({
-    //     cardNumber1: this.cardNumber1,
-    //     cardNumber2: this.cardNumber2,
-    //     cardNumber3: this.cardNumber3,
-    //     cardExpiry: this.cardExpiry,
-    //     cardHolder: this.cardHolder,
-    //     cardNumberId: cardNumberId,
-    //   })
-    //   .subscribe((result) => {
-    //     console.log(result);
-    //   });
 
     alert('Card Added Successfully');
   }
