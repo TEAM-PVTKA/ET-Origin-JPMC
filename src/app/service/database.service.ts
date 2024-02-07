@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, catchError, tap } from 'rxjs';
+import { CardDetails } from '../cards/cards.model';
 
 @Injectable({
   providedIn: 'root',
@@ -22,13 +23,21 @@ export class DatabaseService {
     return this.http.post('http://localhost:4300/users/cards', details);
   }
 
-  getCardsForUser(cardHolder: any): Observable<any> {
-    return this.http.get(
-      `http://localhost:4300/users/addcards?cardHolder=${cardHolder}`
+  getCardsForUser(username: string): Observable<CardDetails[]> {
+    return this.http.get<CardDetails[]>(
+      `http://localhost:4300/users/cards/${username}`
     );
   }
 
-  // getCardsForUser(details: any): Observable<any> {
-  //   return this.http.get('http://localhost:4300/users/addcards', details);
+  // private baseUrl = 'http://localhost:4300/users';
+  // getCardsForUser(username: any): Observable<any> {
+  //   const url = `${this.baseUrl}/uniqueCardHolders?userName=${username}`;
+  //   return this.http.get<CardDetails[]>(url).pipe(
+  //     tap((data) => console.log('Fetched cards:', data)),
+  //     catchError((error) => {
+  //       console.error('Error fetching cards:', error);
+  //       throw error;
+  //     })
+  //   );
   // }
 }

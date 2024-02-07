@@ -1,54 +1,69 @@
-import { APP_INITIALIZER, ApplicationRef, DoBootstrap } from '@angular/core';
-
-import { NgModule } from '@angular/core';
+import {
+  APP_INITIALIZER,
+  ApplicationRef,
+  DoBootstrap,
+  NgModule,
+} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CommonModule } from '@angular/common';
-
-import { HighchartsChartModule } from 'highcharts-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { LoginComponent } from './login/login.component';
-import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
-import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { CommonModule } from '@angular/common';
+
+import { HighchartsChartModule } from 'highcharts-angular';
+import { AlertsComponent } from './alerts/alerts.component';
 import { CardsComponent } from './cards/cards.component';
 import { LimitsComponent } from './limits/limits.component';
-import { UploaddataComponent } from './uploaddata/uploaddata.component';
+import { LoginComponent } from './login/login.component';
+import { CouponsComponent } from './coupons/coupons.component';
+import { DataComponent } from './data/data.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LimitsService } from './service/limits.service';
+import { Series } from 'highcharts';
 import { ExpensesComponent } from './expenses/expenses.component';
+import { CardListComponent } from './cards/cardlist/cardlist.component';
 import { ContactComponent } from './contact/contact.component';
-import { OffersComponent } from './offers/offers.component';
-import { CardlistComponent } from './cards/cardlist/cardlist.component';
+import { RouterModule } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    DashboardComponent,
-    LoginComponent,
+    HomeComponent,
+    AlertsComponent,
     CardsComponent,
+    CardListComponent,
     LimitsComponent,
-    UploaddataComponent,
+    LoginComponent,
+    CouponsComponent,
+    DataComponent,
     ExpensesComponent,
     ContactComponent,
-    OffersComponent,
-    CardlistComponent,
+    DashboardComponent,
   ],
   imports: [
+    RouterModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
     CommonModule,
+    ReactiveFormsModule,
 
     HighchartsChartModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule implements DoBootstrap {
+  constructor(private service: LimitsService) {}
+  ngDoBootstrap(appRef: ApplicationRef) {
+    this.service.setData(appRef);
+    // appRef.bootstrap(AppComponent);
+  }
+}

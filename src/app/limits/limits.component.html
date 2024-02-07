@@ -1,100 +1,96 @@
 <div class="container-fluid mt-5">
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <div class="row">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="row">
 
 
-                <div class="cards">
-                    <h2 class="d-flex justify-content-center">Set Spending Limit</h2>
+        <div class="cards">
+          <h2 class="d-flex justify-content-center">Set Spending Limit</h2>
 
-                    <form action="">
-                        <div>
-                            <!-- <input list="cardOptions" [(ngModel)]="selectedCard" (input)="handleInput($event)" /> -->
+          <form action="">
+            <div>
+              <!-- <input list="cardOptions" [(ngModel)]="selectedCard" (input)="handleInput($event)" /> -->
 
-                            <label for="customRange1" class="form-label">Select the Category:</label>
-                            <input class="form-control" name="listed" list="cardOptions" id="exampleDataList"
-                                [(ngModel)]="selectedCategory" placeholder="Type to search..."
-                                (input)="handleInput($event)">
+              <label for="customRange1" class="form-label">Select the Category:</label>
+              <input class="form-control" name="listed" list="cardOptions" id="exampleDataList"
+                [(ngModel)]="selectedCategory" placeholder="Type to search..." (input)="handleInput($event)">
 
-                            <div class="input-wrap" style="display: inline-block;">
-                                <datalist class="form-control" id="cardOptions" style="display: none;">
-                                    <option *ngFor="let card of categOptions" [value]="card" style="display: block;">
-                                    </option>
-                                </datalist>
-                            </div>
+              <div class="input-wrap" style="display: inline-block;">
+                <datalist class="form-control" id="cardOptions" style="display: none;">
+                  <option *ngFor="let card of categOptions" [value]="card" style="display: block;"></option>
+                </datalist>
+              </div>
 
-                            <input type="range" name="limitranges" class="form-range" [(ngModel)]="minimumLimit" min="0"
-                                max="10000" step="5" />
-                            <span>Limit: {{ minimumLimit | currency:'INR'}}</span>
+              <input type="range" name="limitranges" class="form-range" [(ngModel)]="minimumLimit" min="0" max="10000"
+                step="5" />
+              <span>Limit: {{ minimumLimit | currency:'INR'}}</span>
 
-                            <div class="row mt-3 mb-2">
-                                <div class="col-2"></div>
-                                <div class="col-3">
-                                    <button class="btn btn-primary btn-outline-success text-white"
-                                        (click)="handleSetLimit()">
-                                        Set Limit
-                                    </button>
+              <div class="row mt-3 mb-2">
+                <div class="col-2"></div>
+                <div class="col-3">
+                  <button class="btn btn-primary btn-outline-success text-white" (click)="handleSetLimit()">
+                    Set Limit
+                  </button>
 
-                                </div>
-                                <div class="col-2"></div>
-                                <div class="col-3">
-                                    <!-- <button class="btn btn-warning btn-outline-danger text-white" type="reset">Reset</button> -->
-
-
-                                    <button class="btn btn-warning btn-outline-danger text-white"
-                                        (click)="handleReset()">Reset</button>
-
-
-
-                                </div>
-                                <div class="col-2"></div>
-                            </div>
-
-                        </div>
-                    </form>
-
-                    <div class="mt-3" *ngIf="spendingLimits?.length">
-                        <table class="table table-info table-hover">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Category Name</th>
-                                    <th>Limit Value</th>
-                                    <th>Remove</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr *ngFor="let limit of spendingLimits; let i = index">
-                                    <td>{{i+1}}</td>
-                                    <td>{{categoryNames[i]}}</td>
-                                    <td>{{ limit | currency : 'INR' }}</td>
-                                    <td>
-                                        <div class="row">
-
-                                            <div class="col-md-3 d-flex justify-content-start">
-                                                <button class="btn btn-danger" (click)="handleRemoveRow(i)">
-                                                    <i class="fa-regular fa-circle-xmark" title="Remove"></i>
-                                                </button>
-                                            </div>
-                                            <div class="col-md-6"></div>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-                    </div>
                 </div>
-                <div *ngIf="flag" class="alert alert-warning fade-show alert-dismissible" role="alert">
-                    No Category or No Limit has been Selected And Proceed
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <div class="col-2"></div>
+                <div class="col-3">
+                  <!-- <button class="btn btn-warning btn-outline-danger text-white" type="reset">Reset</button> -->
+
+
+                  <button class="btn btn-warning btn-outline-danger text-white" (click)="handleReset()">Reset</button>
+
+
+
                 </div>
-
-
+                <div class="col-2"></div>
+              </div>
 
             </div>
-            <div class="col-md-4"></div>
+          </form>
+
+          <div class="mt-3" *ngIf="spendingLimits?.length">
+            <table class="table table-info table-hover">
+              <thead>
+                <tr>
+                  <th>S.No</th>
+                  <th>Category Name</th>
+                  <th>Limit Value</th>
+                  <th>Remove</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let limit of spendingLimits; let i = index">
+                  <td>{{i+1}}</td>
+                  <td>{{categoryNames[i]}}</td>
+                  <td>{{ limit | currency : 'INR' }}</td>
+                  <td>
+                    <div class="row">
+
+                      <div class="col-md-3 d-flex justify-content-start">
+                        <button class="btn btn-danger" (click)="handleRemoveRow(i)">
+                          <i class="fa-regular fa-circle-xmark" title="Remove"></i>
+                        </button>
+                      </div>
+                      <div class="col-md-6"></div>
+                    </div>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div *ngIf="flag" class="alert alert-warning fade-show alert-dismissible" role="alert">
+          No Category or No Limit has been Selected And Proceed
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
 
+
+
+      </div>
+      <div class="col-md-4"></div>
     </div>
+
+  </div>

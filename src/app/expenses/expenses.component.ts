@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { Expenses, MonthlyData } from '../service/data.model';
-import { LimitsService } from '../service/limits.service';
-import { Router } from '@angular/router';
 import * as Highcharts from 'highcharts';
-import { splineCharts } from '../charts';
+import { LimitsService } from '../service/limits.service';
+import { splineCharts } from '../chartoptions';
+import { Expenses, MonthlyData } from '../service/data.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-expenses',
@@ -52,7 +52,7 @@ export class ExpensesComponent {
     const monthsArray: string[] = [];
     const savingsArray: number[] = [];
 
-    const data: MonthlyData[] = this.service.getOldMonthlyData(3);
+    const data: MonthlyData[] = this.service.getOldMonthlyData(4);
     data.forEach((e: MonthlyData) => {
       let expensesPerMonth = 0;
       let savingsPerMonth = 0;

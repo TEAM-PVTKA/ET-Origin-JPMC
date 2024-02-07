@@ -1,6 +1,9 @@
-import { Component } from '@angular/core';
-import { Constants } from './service/constants';
+import { Component, OnInit } from '@angular/core';
 import { LimitsService } from './service/limits.service';
+import { UploadData } from './service/data.model';
+import { Constants } from './service/constants';
+import { Router } from '@angular/router';
+import { DatabaseService } from './service/database.service';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +11,5 @@ import { LimitsService } from './service/limits.service';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'Hackathon';
-
-  constructor(private service: LimitsService) {}
-
-  ngOnInit(): void {
-    localStorage.setItem(Constants.TOKEN, '');
-    localStorage.getItem(Constants.TOKEN);
-    console.log(this.service.uploadedData);
-  }
+  title = 'Demo';
 }

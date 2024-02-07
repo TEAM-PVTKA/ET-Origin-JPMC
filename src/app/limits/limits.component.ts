@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
+import { LimitsService } from '../service/limits.service';
+import { Expenses, MonthlyData } from '../service/data.model';
+import { CategoryList } from './limits.model';
+import { CardDetails } from '../cards/cards.model';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-limits',
   templateUrl: './limits.component.html',
-  styleUrl: './limits.component.css'
+  styleUrl: './limits.component.css',
 })
 export class LimitsComponent {
-
   categOptions: string[] = [
     'Groceries',
     'Utilities',
@@ -15,6 +18,10 @@ export class LimitsComponent {
     'My Bills',
     'Transportation',
     'Shopping',
+    'Health',
+    'Accessories',
+    'Food',
+    'Others',
   ]; // Simulated card options
   selectedCategory: string = '';
   minimumLimit: number = 0;
@@ -29,7 +36,7 @@ export class LimitsComponent {
 
   flag: boolean = false;
 
-  constructor( private router: Router) {}
+  constructor(private limitser: LimitsService, private router: Router) {}
 
   ngOnInit() {
     if (localStorage.getItem('loginUser') == null) {
@@ -76,5 +83,4 @@ export class LimitsComponent {
     this.categoryNames.splice(index, 1);
     this.spendingLimits.splice(index, 1);
   }
-
 }

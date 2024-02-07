@@ -1,14 +1,18 @@
-.container {
-    height: 260px;
-    width: 530px;
-    background: linear-gradient(to bottom, black, #910A67);
-    border-radius: 10px;
-    box-shadow: 2px 6px 29px white;
-}
+/* notice-css */
+.notice {
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+            box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+  }
+  .notice-warning {
+    border-color: #FEAF20;
+  }
 
-/* Styles for set limits button */
-
-
+  /*Button styles  */
   .custom-btn {
     width: 130px;
     height: 40px;
@@ -43,63 +47,3 @@
       inset -4px -4px 6px 0 rgba(255,255,255,.2),
       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
   }
-
-
-.visa {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.col-8 {
-    color: white;
-    font-size: 12px;
-}
-
-#num {
-    color: white;
-    font-size: 12px;
-}
-
-.incard {
-    width: 20px;
-}
-
-#name {
-    color: white;
-    font-size: 12px;
-}
-
-#card {
-    color: white;
-    font-size: 12px;
-}
-
-.body {
-    background-color: #785BF8;
-}
-
-
-.name{
-    color: white;
-    font-size: 19px;
-}
-
-p {
-    color: white;
-
-}
-
-label {
-    color: white
-}
-
-.date{
-    color: white 
-}
-.col-md-3{
-    color: white 
-}
-.cholder{
-    color: white 
-}

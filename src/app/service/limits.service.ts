@@ -9,6 +9,7 @@ import {
   YearData,
 } from './data.model';
 import { AppComponent } from '../app.component';
+import { CardDetails } from '../cards/cards.model';
 import { CategoryList } from '../limits/limits.model';
 
 @Injectable({

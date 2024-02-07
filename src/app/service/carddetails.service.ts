@@ -1,12 +1,17 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Subject, of } from 'rxjs';
 import { CardDetails } from '../cards/cards.model';
 
 @Injectable({
   providedIn: 'root',
 })
-export class CarddetailsService {
+export class CardDetailsService {
   cardList: CardDetails[] = [];
-  cardList$ = new Subject<CardDetails[]>();
+  cardList$ = new Subject<CardDetails[]>()
   constructor() {}
+
+
+  
+ 
+
 }

@@ -1,0 +1,21 @@
+.header-image{
+    background-color: bisque;
+    
+    }
+    
+    .Registercomponent{
+    background-color: #E0CCBE !important;
+    
+    }
+    .customercarecomponent{
+        p {
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+          }
+    }
+          img  {
+            width: 100%;
+            height: 100% !important 
+          }

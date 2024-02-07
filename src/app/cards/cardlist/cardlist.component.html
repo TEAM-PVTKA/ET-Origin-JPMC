@@ -1,3 +1,13 @@
+<div class="row mt-5" *ngIf="!flag">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 d-flex justify-content-center">
+        <button class="custom-btn btn-2" (click)="onLimit()">
+            Set Limits
+        </button>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
 <div class="row">
     <!-- Add Card Section (Optional) -->
     <!-- <div *ngIf="flag" class="col-md-8 d-flex justify-content-center">
@@ -8,11 +18,11 @@
     </div> -->
 
     <!-- Display Cards -->
-    <div class="col-md-8 d-flex justify-content-center">
+    <div class="col-md-12 d-flex justify-content-center">
         <div class="container mt-5 body" *ngFor="let card of cardsArray; let i = index">
             <div class="row">
                 <div class="col-md-6 mt-3 visa">
-                    <i>VISA</i>
+                    <i>MY CARD</i>
                 </div>
                 <div class="col-md-6 d-flex justify-content-end mt-3">
                     <button class="btn btn-danger" (click)="onDelete(i)">
@@ -29,14 +39,11 @@
                     <div class="col-md-3">
                         {{card.cardNumber1}}
                     </div>
-                    <div class="col-md-1">
-                        <p>-</p>
-                    </div>
                     <div class="col-md-3">
                         {{card.cardNumber2}}
                     </div>
-                    <div class="col-md-1">
-                        <p>-</p>
+                    <div class="col-md-3">
+                        {{card.cardNumber3}}
                     </div>
                     <div class="col-md-3">
                         {{card.cardNumber3}}
@@ -44,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="row ">
+            <div class="row mt-3">
                 <div class="col-md-6 date">
                     EXPIRY
                 </div>
@@ -55,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="row ">
+            <div class="row mt-1">
                 <div class="col">
                     <div class="form-group cholder">
                         Card Holder
@@ -70,5 +77,6 @@
                 </div>
             </div>
         </div>
+           
     </div>
 </div>

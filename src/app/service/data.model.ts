@@ -23,5 +23,3 @@ export interface Limits {
   category: string;
   amount: number;
 }
-
-

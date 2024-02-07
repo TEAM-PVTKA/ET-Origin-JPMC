@@ -1,0 +1,77 @@
+.offcanvas{
+    width:20% !important;
+}  
+:ng-host ::ng-deep {
+    .navbar{
+        padding: 0 !important;
+    }
+    .nav-link{
+        padding: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+.mynav{
+    padding: 15px 10px;
+    background: #785bf8;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .1);
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, .1)
+
+}
+#toggle{
+    background-color: #fff;
+    color:#785bf8;
+}  
+.navbar ul,.mynav{
+margin: 0;
+padding: 0;
+}
+.navbar ul{ 
+    background-color: #785bf8;
+    list-style: none;
+    width: 100%;
+}
+.navbar li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+.navbar a{
+   
+    color: white;
+    display: block;
+    padding: 25px 35px;
+    text-align: center;
+    text-decoration: none;
+    transform: all 0.25s ease;
+}
+.navbar li:hover a{
+    background:#785bf8;
+}
+.submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+li:hover ul.submenu{
+opacity: 1;
+top:80px;
+visibility: visible;
+}
+.submenu li{
+    float: none;
+    width:100%
+}
+.submenu a:hover{
+background: #df4b05;
+}
+.submenu a{
+    background-color: #34495e;
+}

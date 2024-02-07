@@ -3,7 +3,7 @@
         <form #newForm="ngForm" novalidate>
             <div class="row">
                 <div class="col-md-6 mt-3 visa">
-                    <i>VISA</i>
+                    <i>MY CARD</i>
                 </div>
                 <div class="col-md-3 d-flex justify-content-end mt-3">
                     <button class="btn btn-outline-light" (click)="addCard()" title="Add Card">
@@ -27,21 +27,23 @@
 
                     <div class="col-md-3 ">
                         <input type="text" (ngModelChange)="onValueChange('cardNumber1',$event)" class="form-control"
-                            name="cardNumber1" [(ngModel)]="cardNumber1" placeholder="XXXX" maxlength="4" required>
+                            name="cardNumber1" [(ngModel)]="cardNumber1" pattern="[0-9\s]{0,4}" placeholder="XXXX"
+                            maxlength="4" required>
                     </div>
-                    <div class="col-md-1">
-                        <p>-</p>
-                    </div>
+
                     <div class="col-md-3 ">
                         <input type="text" (ngModelChange)="onValueChange('cardNumber1',$event)" class="form-control"
                             name="cardNumber2" [(ngModel)]="cardNumber2" placeholder="XXXX" maxlength="4" required>
                     </div>
-                    <div class="col-md-1">
-                        <p>-</p>
-                    </div>
-                    <div class="col-md-3">
+
+                    <div class="col-md-3 ">
                         <input type="text" (ngModelChange)="onValueChange('cardNumber1',$event)" class="form-control"
                             name="cardNumber3" [(ngModel)]="cardNumber3" placeholder="XXXX" maxlength="4" required>
+                    </div>
+
+                    <div class="col-md-3">
+                        <input type="text" (ngModelChange)="onValueChange('cardNumber1',$event)" class="form-control"
+                            name="cardNumber4" [(ngModel)]="cardNumber4" placeholder="XXXX" maxlength="4" required>
                     </div>
                 </div>
 
@@ -61,14 +63,13 @@
                     <div class="form-group">
                         <label for="usr">CARD HOLDER</label>
                         <input type="text" class="form-control input1" name="cardHolder" placeholder="Card Holder Name"
-                            [(ngModel)]="cardHolder" oninput="this.value = this.value.replace(/[^a-z, ]/, '')">
+                            [(ngModel)]="cardHolder" oninput="this.value = this.value.replace(/[^A-Za-z, ]/, '')">
                     </div>
                 </div>
             </div>
 
         </form>
-
     </div>
-
-    <app-cardlist></app-cardlist>
 </div>
+
+<app-cardlist></app-cardlist>

@@ -1,0 +1,23 @@
+
+.reward-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  transition: all 0.3s;
+  background-color: #785bf8;
+  border-radius: 10px;
+}
+
+.reward-card:hover{
+  transform: scale(1.02);
+}
+
+.blur {
+  filter: blur(4px);
+  opacity: 0.6;
+  pointer-events: none; /* Disable interactions on blurred element */
+}
+.card-body{
+  background-color: yellow;
+}
+
